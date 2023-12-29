@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <a href="#" id=bold onclick="reload()" class="link">NEWS24/7</a>
+        <div class="heading">
+        <div class="link">
+            <a href="#"  class="nav-item" id="general" onclick="onNavItemClick('general')">General</a>
+        </div>
+        <div class="link">
+            <a href="#" class=" nav-item" id="buisness" onclick="onNavItemClick('buisness')">Buisness</a>
+        </div>
+        <div class="link">
+            <a href="#" class="nav-item" id="technology" onclick="onNavItemClick('technology')">Technology</a>
+        </div>
+        <div class="link">
+            <a href="#" class=" nav-item" id="sports" onclick="onNavItemClick('sports')">Sports</a>
+        </div>
+        <div class="link">
+            <a href="#" class=" nav-item" id="finance" onclick="onNavItemClick('finance')">Finance</a>
+        </div>
+        <div class="link">
+            <a href="#" class=" nav-item" id="entertainment" onclick="onNavItemClick('entertainment')">Entertainment</a>
+        </div>
+        <div class="btn">
+            <input id="search-Text" type="search" class="news-input" placeholder="eg:Artificial Intelligence">
+            <button id="search-btn">Search</button>
+        </div>
+        </div>
+    </nav>
+    <main>
+        <div class="card-container" id="card-container">
+           
+        </div>
+    </main>
+
+    <template id="temp-news-card">
+        <div class="card">
+            <div class="header">
+                <img src="https://via.placeholder.com/400x200" alt="newsImg" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the title</h3>
+                <h6 class="news-source" id="news-source">End Gaget 28/4/23</h6>
+                <p class="about-news" id="about-news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, aliquam perferendis explicabo quaerat debitis eum provident facere, facilis, corrupti vel commodi architecto. Dolorem dignissimos aspernatur incidunt beatae, ab quod voluptate.</p>
+            </div>
+        </div>
+    </template>
+    <script src="./script.js"></script>
+</body>
+</html>
