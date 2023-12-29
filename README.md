@@ -1,4 +1,4 @@
-# News Website Readme
+# News Website
 
 ![Screenshot 2023-12-30 003300](https://github.com/neharika2004/News-Website/assets/125340101/051fda90-488d-47ee-a6a5-59885c30e3bb)
 
